@@ -23,15 +23,25 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+I'm not sure, I went to the Hitachi webpage, but still didn't understand. 
 
 **b. What voltage level do you need to power the display backlight?**
+I'm not sure
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
-**d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
- 
-**e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+I didn't understand that the numbers on the breadboard didn't correspond to those on ground and +. I forgot to connect certain wires for this reason. To fix it, I switched the wires. 
 
+**d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+
+lcd.print("hello, world!")
+to
+lcd.pring("Natalie")
+
+But it isn't flashing...
+
+**e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+®
 
 ## Part C. Using a time-based digital sensor
 
