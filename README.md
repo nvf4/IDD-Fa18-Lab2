@@ -69,14 +69,36 @@ Also, make sure at the top of the code...
 #define ENC_A 7 //these need to be digital input pins
 #define ENC_B 8
 
-...That the numbers match where your pins are.
+...That the numbers match where your pins are in the arduino.
 
 ## Part D. Make your Arduino sing!
 
+"Wire it to your circuit with the black to ground and the red to Arduino Micro pin 8." means red leg of speaker/black leg of spearker
 **a. How would you change the code to make the song play twice as fast?**
- 
+
+Twice as fast,
+we divide the note duration by 2. 
+
+int noteDuration = 1000 / noteDurations[thisNote];
+
+becomes....
+
+int noteDuration = 500 / noteDurations[thisNote];
+
+
+**You'll also have to increase the for() loop index max from 8 to 20:**
+To make it longer....
+not tone, but "thisNote" is the number of notes. 
+
+
+void setup() {
+  // iterate over the notes of the melody:
+  for (int thisNote = 0; thisNote < 20; thisNote++) {
+  
+  
 **b. What song is playing?**
 
+Starwars
 
 ## Part E. Make your own timer
 
