@@ -61,15 +61,15 @@ void loop() {
 
 **Upload a video of your working rotary encoder here.**
 
-![Lowly Multimeter Video]()
+![Rotary encoder video](IMG_5920.MOV)
 
 to see the display, make sure the baud matches in the code and the serial monitor.
-Also, make sure at the top of the code, 
+Also, make sure at the top of the code...
 
 #define ENC_A 7 //these need to be digital input pins
 #define ENC_B 8
 
-That the numbers match where your pins are.
+...That the numbers match where your pins are.
 
 ## Part D. Make your Arduino sing!
 
