@@ -104,4 +104,9 @@ Starwars
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
+video attach
+
 **b. Post a link to the completed lab report your class hub GitHub repo.**
+
+
+![counting down code](counting_down_timer_.ino)
